@@ -1,0 +1,91 @@
+html {
+  box-sizing: border-box;
+}
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+body {
+  max-width: 1000px;
+  margin: auto auto 100px;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  width: 220px;
+  border: solid 2px gray;
+  border-radius: 10px;
+  background-color: gainsboro;
+  box-shadow: 6px 6px 22px -10px #2d2d2d;
+}
+li {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.listItem {
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+  background-color: whitesmoke;
+  padding: 4px 8px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+.listItem:visited {
+  color: rgb(144, 144, 215);
+}
+.listItem:hover {
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  background-color: rgb(165, 165, 165);
+  outline: none;
+}
+.listItem:active {
+  color: green;
+  border: 2px solid green;
+  background-color: white;
+}
+.historyHeader {
+  background-color: gainsboro;
+  padding-left: 10px;
+  border: solid 2px gray;
+  border-radius: 10px;
+  box-shadow: 6px 6px 22px -10px #2d2d2d;
+}
+.inventorName {
+  width: 100px;
+  color: blue;
+  font-weight: 600;
+  font-style: italic;
+}
+.companyName {
+  font-style: normal;
+}
+.offLabel {
+  font-weight: 750;
+}
+.bulbImage {
+  max-width: 400px;
+  margin: 15px;
+}
+.table {
+  border-collapse: collapse;
+}
+th {
+  background-color: rgb(235 217 185);
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
+td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: left;
+}
+caption {
+  caption-side: bottom;
+  font-size: 0px;
+}
+.wikipedia {
+  padding: 50px auto;
+}
