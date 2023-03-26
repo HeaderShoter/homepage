@@ -8,9 +8,19 @@ html {
 }
 body {
   max-width: 1000px;
-  margin: auto auto 100px;
-  padding: 15px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
   font-family: "Roboto", sans-serif;
+}
+.siteLabel {
+  padding: 25px;
+  background-color: gainsboro;
+  margin-bottom: 30px;
+  border: solid 2px gray;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 6px 6px 22px -10px #2d2d2d;
+  text-align: center;
 }
 nav {
   width: 220px;
@@ -18,10 +28,16 @@ nav {
   border-radius: 10px;
   background-color: gainsboro;
   box-shadow: 6px 6px 22px -10px #2d2d2d;
+  margin: auto;
+}
+ul {
+  padding-left: 0px;
+  list-style-type: none;
+  list-style-position: inside;
 }
 li {
-  list-style-type: none;
   margin-bottom: 20px;
+  text-align: center;
 }
 .listItem {
   text-decoration: none;
@@ -31,9 +47,16 @@ li {
   padding: 4px 8px;
   border: 2px solid gray;
   border-radius: 5px;
+  transition: 0.2s;
 }
 .listItem:visited {
   color: rgb(144, 144, 215);
+}
+.listItem:focus {
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  background-color: rgb(165, 165, 165);
+  outline: none;
 }
 .listItem:hover {
   color: greenyellow;
@@ -48,10 +71,15 @@ li {
 }
 .historyHeader {
   background-color: gainsboro;
-  padding-left: 10px;
+  margin-top: 50px;
+  padding: 5px;
   border: solid 2px gray;
   border-radius: 10px;
   box-shadow: 6px 6px 22px -10px #2d2d2d;
+  text-align: center;
+}
+.articleContent {
+  line-height: 1.5;
 }
 .inventorName {
   width: 100px;
@@ -62,12 +90,42 @@ li {
 .companyName {
   font-style: normal;
 }
+.bulbSwitchBox {
+  display: flex;
+  justify-content: center;
+}
+.bulbSwitch {
+  margin: 20px;
+  width: 55px;
+  height: 22px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+.bulbSwitch:hover {
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  background-color: rgb(165, 165, 165);
+  outline: none;
+}
+.bulbSwitch:active {
+  color: yellow;
+  border: 2px solid yellow;
+  background-color: gray;
+}
 .offLabel {
   font-weight: 750;
 }
 .bulbImage {
-  max-width: 400px;
-  margin: 15px;
+  max-width: 200px;
+}
+.bulbBox {
+  display: flex;
+  justify-content: center;
+}
+.tableBox {
+  display: flex;
+  justify-content: center;
 }
 .table {
   border-collapse: collapse;
@@ -87,6 +145,13 @@ caption {
   caption-side: bottom;
   font-size: 0px;
 }
-.wikipedia {
-  padding: 50px auto;
+footer {
+  padding: 25px;
+  background-color: gainsboro;
+  margin-top: 50px;
+  padding-left: 10px;
+  border: solid 2px gray;
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 6px 6px 22px -10px #2d2d2d;
+  text-align: center;
 }
