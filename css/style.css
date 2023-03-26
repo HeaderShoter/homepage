@@ -13,6 +13,9 @@ body {
   padding-right: 15px;
   font-family: "Roboto", sans-serif;
 }
+.dark {
+  background-color: rgb(46, 46, 46);
+}
 .siteLabel {
   padding: 25px;
   background-color: gainsboro;
