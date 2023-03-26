@@ -1,19 +1,20 @@
 console.log("Hellow world!");
 
 let button = document.querySelector(".bulbSwitch");
-let background = document.getElementById("background");
+let switchLabel = document.querySelector(".switchLabel");
+let background = document.querySelector(".body");
 let foreground = document.querySelector(".articleHeader");
 let bulb = document.querySelector(".bulbImage");
 
 button.addEventListener("click", () => {
-  if (button.innerText === "ZGAŚ") {
-    button.innerText = "ZAPAL";
-    background.classList = "darkBackground";
+  if (switchLabel.innerText === "ZGAŚ") {
+    switchLabel.innerText = "ZAPAL";
+    background.classList.add("darkBackground");
     foreground.classList.add("darkForeground");
     bulb.style.display = "none";
   }
   else {
-    button.innerText = "ZGAŚ";
+    switchLabel.innerText = "ZGAŚ";
     background.classList.remove("darkBackground");
     foreground.classList.remove("darkForeground");
     bulb.style.display = "block";

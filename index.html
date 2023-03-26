@@ -14,13 +14,19 @@
     <script defer src="js/script.js"></script>
   </head>
 
-  <body id="background">
+  <body class="body">
     <header class="siteLabel"><h1>HISTORIA ŻARÓWKI</h1></header>
-    <nav>
-      <ul>
-        <li><a class="listItem" href="#historia">Historia</a></li>
-        <li><a class="listItem" href="#zabawa-z-prądem">Zabawa z prądem</a></li>
-        <li><a class="listItem" href="#oś-czasu">Oś czasu</a></li>
+    <nav class="navigation">
+      <ul class="navigationList">
+        <li class="listItem">
+          <a class="listContent" href="#historia">Historia</a>
+        </li>
+        <li class="listItem">
+          <a class="listContent" href="#zabawa-z-prądem">Zabawa z prądem</a>
+        </li>
+        <li class="listItem">
+          <a class="listContent" href="#oś-czasu">Oś czasu</a>
+        </li>
       </ul>
     </nav>
     <main>
@@ -53,7 +59,9 @@
       </article>
       <section id="zabawa-z-prądem">
         <div class="bulbSwitchBox">
-          <button class="bulbSwitch"><span class="offLabel">ZGAŚ</span></button>
+          <button class="bulbSwitch">
+            <span class="switchLabel">ZGAŚ</span>
+          </button>
         </div>
         <div class="bulbBox">
           <img
@@ -67,66 +75,66 @@
         <h2 class="articleHeader">Oś czasu</h2>
         <div class="tableBox">
           <table class="table">
-            <caption>
+            <caption class="tableCaption">
               Oś czasu
             </caption>
             <thead>
               <tr>
-                <th scope="col">Rok</th>
-                <th scope="col">Wydarzenie</th>
-                <th scope="col">Inwentor</th>
+                <th class="tableHeader" scope="col">Rok</th>
+                <th class="tableHeader" scope="col">Wydarzenie</th>
+                <th class="tableHeader" scope="col">Inwentor</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th scope="row">1838</th>
-                <td>włókno węglowe żarzące się w próżni</td>
-                <td>Marcellin Jobard</td>
+                <th class="tableHeader" scope="row">1838</th>
+                <td class="tableCell">włókno węglowe żarzące się w próżni</td>
+                <td class="tableCell">Marcellin Jobard</td>
               </tr>
               <tr>
-                <th scope="row">1840</th>
-                <td>drut platynowy żarzący się w próżni</td>
-                <td>Robert Grove</td>
+                <th class="tableHeader" scope="row">1840</th>
+                <td class="tableCell">drut platynowy żarzący się w próżni</td>
+                <td class="tableCell">Robert Grove</td>
               </tr>
               <tr>
-                <th scope="row">1854</th>
-                <td>
+                <th class="tableHeader" scope="row">1854</th>
+                <td class="tableCell">
                   pierwsze praktyczne wykorzystanie żarówki z włóknem ze
                   zwęglonego bambusa do reklamy
                 </td>
-                <td>Heinrich Göbel</td>
+                <td class="tableCell">Heinrich Göbel</td>
               </tr>
               <tr>
-                <th scope="row">1860</th>
-                <td>
+                <th class="tableHeader" scope="row">1860</th>
+                <td class="tableCell">
                   brytyjski patent na świecące włókno węglowe w bańce, z której
                   wypompowano powietrze
                 </td>
-                <td>Joseph Wilson Swan</td>
+                <td class="tableCell">Joseph Wilson Swan</td>
               </tr>
               <tr>
-                <th scope="row">1878</th>
-                <td>
+                <th class="tableHeader" scope="row">1878</th>
+                <td class="tableCell">
                   pierwsza nadająca się do praktycznego wykorzystania żarówka,
                   patent brytyjski
                 </td>
-                <td>Joseph Wilson Swan</td>
+                <td class="tableCell">Joseph Wilson Swan</td>
               </tr>
               <tr>
-                <th scope="row">1879</th>
-                <td>patent Thomasa Edisona</td>
-                <td>Thomas Edison</td>
+                <th class="tableHeader" scope="row">1879</th>
+                <td class="tableCell">patent Thomasa Edisona</td>
+                <td class="tableCell">Thomas Edison</td>
               </tr>
               <tr>
-                <th scope="row">1890</th>
-                <td>wolframowy żarnik</td>
-                <td>Aleksandr Łodygin</td>
+                <th class="tableHeader" scope="row">1890</th>
+                <td class="tableCell">wolframowy żarnik</td>
+                <td class="tableCell">Aleksandr Łodygin</td>
               </tr>
             </tbody>
           </table>
         </div>
       </section>
-      <footer>
+      <footer class="siteFooter">
         <p class="footer">Copyright &copy; 2023 Wiktor Żarski</p>
       </footer>
     </main>
