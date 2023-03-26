@@ -13,7 +13,7 @@ body {
   padding-right: 15px;
   font-family: "Roboto", sans-serif;
 }
-.dark {
+.darkBackground {
   background-color: rgb(46, 46, 46);
 }
 .siteLabel {
@@ -72,7 +72,7 @@ li {
   border: 2px solid green;
   background-color: white;
 }
-.historyHeader {
+.articleHeader {
   background-color: gainsboro;
   margin-top: 50px;
   padding: 5px;
@@ -80,6 +80,9 @@ li {
   border-radius: 10px;
   box-shadow: 6px 6px 22px -10px #2d2d2d;
   text-align: center;
+}
+.darkForeground {
+  background-color: rgb(27, 27, 27);
 }
 .articleContent {
   line-height: 1.5;
