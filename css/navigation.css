@@ -1,0 +1,50 @@
+.navigation {
+  width: 220px;
+  margin: auto;
+}
+
+.navigation__list {
+  padding-left: 0px;
+  list-style-type: none;
+  list-style-position: inside;
+}
+
+.navigation__listItem {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.navigation__link {
+  text-decoration: none;
+  font-weight: bold;
+  color: blue;
+  background-color: whitesmoke;
+  padding: 4px 8px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.navigation__link:visited {
+  color: rgb(144, 144, 215);
+}
+
+.navigation__link:focus {
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  background-color: rgb(165, 165, 165);
+  outline: none;
+}
+
+.navigation__link:hover {
+  color: greenyellow;
+  border: 2px solid greenyellow;
+  background-color: rgb(165, 165, 165);
+  outline: none;
+}
+
+.navigation__link:active {
+  color: green;
+  border: 2px solid green;
+  background-color: white;
+}

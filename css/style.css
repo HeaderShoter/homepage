@@ -16,180 +16,42 @@ html {
   font-family: "Roboto", sans-serif;
 }
 
-.darkBackground {
+.body--dark {
   background-color: rgb(46, 46, 46);
 }
 
-.siteLabel {
-  padding: 25px;
-  background-color: gainsboro;
-  margin-bottom: 30px;
-  border: solid 2px gray;
-  border-radius: 0px 0px 10px 10px;
-  box-shadow: 6px 6px 22px -10px #2d2d2d;
-  text-align: center;
-}
-
-.navigation {
-  width: 220px;
-  border: solid 2px gray;
-  border-radius: 10px;
-  background-color: gainsboro;
-  box-shadow: 6px 6px 22px -10px #2d2d2d;
-  margin: auto;
-}
-
-.navigationList {
-  padding-left: 0px;
-  list-style-type: none;
-  list-style-position: inside;
-}
-
-.listItem {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
-.listContent {
-  text-decoration: none;
-  font-weight: bold;
-  color: blue;
-  background-color: whitesmoke;
-  padding: 4px 8px;
-  border: 2px solid gray;
-  border-radius: 5px;
-  transition: 0.2s;
-}
-
-.listContent:visited {
-  color: rgb(144, 144, 215);
-}
-
-.listContent:focus {
-  color: greenyellow;
-  border: 2px solid greenyellow;
-  background-color: rgb(165, 165, 165);
-  outline: none;
-}
-
-.listContent:hover {
-  color: greenyellow;
-  border: 2px solid greenyellow;
-  background-color: rgb(165, 165, 165);
-  outline: none;
-}
-
-.listContent:active {
-  color: green;
-  border: 2px solid green;
-  background-color: white;
-}
-
-.articleHeader {
-  background-color: gainsboro;
-  margin-top: 50px;
+.siteTheme {
   padding: 5px;
-  border: solid 2px gray;
+  margin-top: 50px;
   border-radius: 10px;
+  border: solid 2px gray;
+  background-color: gainsboro;
   box-shadow: 6px 6px 22px -10px #2d2d2d;
   text-align: center;
 }
 
-.darkForeground {
-  background-color: rgb(27, 27, 27);
+.siteTheme--dark {
+  background-color: transparent;
+  border: solid 2px black;
 }
 
-.articleContent {
-  line-height: 1.5;
+.header {
+  padding: 25px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+  border-radius: 0px 0px 10px 10px;
 }
 
-.inventorName {
-  width: 100px;
-  color: blue;
-  font-weight: bold;
-  font-style: italic;
-}
-
-.companyName {
-  font-style: normal;
-}
-
-.bulbToggleContainer {
+.container {
   display: flex;
   justify-content: center;
 }
 
-.bulbToggle {
-  margin: 20px;
-  width: 55px;
-
-  height: 22px;
-  font-weight: bold;
-
-  border: 2px solid gray;
-  border-radius: 5px;
-
-  transition: 0.2s;
-}
-
-.bulbToggle:hover {
-  color: greenyellow;
-  border: 1px solid greenyellow;
-  background-color: rgb(165, 165, 165);
-  outline: none;
-}
-
-.bulbToggle:active {
-  color: yellow;
-
-  border: 2px solid yellow;
-  background-color: gray;
-}
-
-.bulbImage {
+.image {
   max-width: 200px;
 }
 
-.bulbContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.tableContainer {
-  display: flex;
-  justify-content: center;
-}
-
-.table {
-  border-collapse: collapse;
-}
-
-.tableHeader {
-  background-color: rgb(235 217 185);
-  border: 1px solid black;
-  padding: 5px;
-  text-align: left;
-}
-
-.tableCell {
-  border: 1px solid black;
-  padding: 5px;
-  text-align: left;
-  line-height: 1.3;
-}
-
-.tableCaption {
-  caption-side: bottom;
-  font-size: 0px;
-}
-
-.siteFooter {
+.footer {
   padding: 25px;
-  background-color: gainsboro;
-  margin-top: 50px;
-  padding-left: 10px;
-  border: solid 2px gray;
   border-radius: 10px 10px 0px 0px;
-  box-shadow: 6px 6px 22px -10px #2d2d2d;
-  text-align: center;
 }

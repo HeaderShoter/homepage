@@ -1,0 +1,24 @@
+.toggle__button {
+  margin: 20px;
+  min-width: 55px;
+  max-width: 65px;
+  height: 22px;
+  font-weight: bold;
+  border: 2px solid gray;
+  border-radius: 5px;
+  transition: 0.2s;
+}
+
+.toggle__button:hover {
+  color: greenyellow;
+  border: 1px solid greenyellow;
+  background-color: rgb(165, 165, 165);
+  outline: none;
+}
+
+.toggle__button:active {
+  color: yellow;
+
+  border: 2px solid yellow;
+  background-color: gray;
+}

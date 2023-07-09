@@ -6,104 +6,109 @@
     <title>Historia żarówki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/article.css" />
+    <link rel="stylesheet" href="css/navigation.css" />
+    <link rel="stylesheet" href="css/table.css" />
+    <link rel="stylesheet" href="css/toggle.css" />
     <script defer src="js/script.js"></script>
   </head>
 
   <body class="body">
-    <header class="siteLabel"><h1>HISTORIA ŻARÓWKI</h1></header>
-    <nav class="navigation">
-      <ul class="navigationList">
-        <li class="listItem">
-          <a class="listContent" href="#historia">Historia</a>
+    <header class="header siteTheme"><h1>HISTORIA ŻARÓWKI</h1></header>
+    <nav class="navigation siteTheme">
+      <ul class="navigation__list">
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#historia">Historia</a>
         </li>
-        <li class="listItem">
-          <a class="listContent" href="#zabawa-z-pradem">Zabawa z prądem</a>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#zabawa-z-pradem">Zabawa z prądem</a>
         </li>
-        <li class="listItem">
-          <a class="listContent" href="#os-czasu">Oś czasu</a>
+        <li class="navigation__listItem">
+          <a class="navigation__link" href="#os-czasu">Oś czasu</a>
         </li>
       </ul>
     </nav>
     <main>
       <article id="historia">
-        <h2 class="articleHeader">Wynalazca</h2>
-        <p class="articleContent">
+        <h2 class="siteTheme">Wynalazca</h2>
+        <p class="article__content">
           Przyjęło się, aby przypisywać wynalezienie żarówki
-          <b class="inventorName">Thomasowi Edisonowi</b>.<br />
-          W rzeczywistości pierwszym <em>opatentowanym</em> w 1860 roku wynalazkiem tego typu, było dzieło Brytyjczyka <b class="inventorName">Josepha Wilsona Swana</b>.
+          <b class="article__inventorName">Thomasowi Edisonowi</b>.<br />
+          W rzeczywistości pierwszym <em>opatentowanym</em> w 1860 roku wynalazkiem tego typu, było dzieło Brytyjczyka <b class="article__inventorName">Josepha Wilsona Swana</b>.
         </p>
-        <h2 class="articleHeader">Pierwsze wykorzystanie</h2>
-        <p class="articleContent">Eksperymenty z wykorzystaniem żarzącego się w próżni włókna węglowego, miały miejsce już od 1838 roku. Jednakże dopiero opatentowana w 1878 roku <strong>żarówka z zamkniętym w próżniowej bańce wolframowym drutem </strong>, pozwalała na realne wykorzystanie komercyjne tego wynalazku.</p>
-        <h2 class="articleHeader">Masowa produkcja</h2>
-        <p class="articleContent">Na szeroką skalę żarówki zaczęto produkować w USA, w przedsiębiorstwie założonym przez <b class="inventorName">Sir Hirama Stevensa Maxima</b> (Hiram Stevens Maxim utworzył <i class="companyName">United States Electric Lighting Company</i>).</p>
+        <h2 class="siteTheme">Pierwsze wykorzystanie</h2>
+        <p class="article__content">Eksperymenty z wykorzystaniem żarzącego się w próżni włókna węglowego, miały miejsce już od 1838 roku. Jednakże dopiero opatentowana w 1878 roku <strong>żarówka z zamkniętym w próżniowej bańce wolframowym drutem </strong>, pozwalała na realne wykorzystanie komercyjne tego wynalazku.</p>
+        <h2 class="siteTheme">Masowa produkcja</h2>
+        <p class="article__content">Na szeroką skalę żarówki zaczęto produkować w USA, w przedsiębiorstwie założonym przez <b class="article__inventorName">Sir Hirama Stevensa Maxima</b> (Hiram Stevens Maxim utworzył <i class="article__companyName">United States Electric Lighting Company</i>).</p>
       </article>
       <section id="zabawa-z-pradem">
-        <h2 class="articleHeader">Pobaw się prądem!</h2>
-        <div class="bulbToggleContainer">
-          <button class="bulbToggle">ZGAŚ</button>
+        <h2 class="siteTheme">Pobaw się prądem!</h2>
+        <div class="container">
+          <button class="toggle__button">ZGAŚ</button>
         </div>
-        <div class="bulbContainer">
-          <img src="https://cdn.mos.cms.futurecdn.net/HaPnm6P7TZhPQGGUxtDjAg-1200-80.jpg" alt="Żarówka" class="bulbImage" />
+        <div class="container">
+          <img src="https://cdn.mos.cms.futurecdn.net/HaPnm6P7TZhPQGGUxtDjAg-1200-80.jpg" alt="Żarówka" class="image" />
         </div>
       </section>
-      <section id="os-czasu" class="timelineTable">
-        <h2 class="articleHeader">Oś czasu</h2>
-        <div class="tableContainer">
+      <section id="os-czasu">
+        <h2 class="siteTheme">Oś czasu</h2>
+        <div class="container">
           <table class="table">
-            <caption class="tableCaption">
+            <caption class="table__caption">
               Oś czasu
             </caption>
             <thead>
               <tr>
-                <th class="tableHeader" scope="col">Rok</th>
-                <th class="tableHeader" scope="col">Wydarzenie</th>
-                <th class="tableHeader" scope="col">Inwentor</th>
+                <th class="table__header" scope="col">Rok</th>
+                <th class="table__header" scope="col">Wydarzenie</th>
+                <th class="table__header" scope="col">Inwentor</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <th class="tableHeader" scope="row">1838</th>
-                <td class="tableCell">włókno węglowe żarzące się w próżni</td>
-                <td class="tableCell">Marcellin Jobard</td>
+                <th class="table__header" scope="row">1838</th>
+                <td class="table__cell">włókno węglowe żarzące się w próżni</td>
+                <td class="table__cell">Marcellin Jobard</td>
               </tr>
               <tr>
-                <th class="tableHeader" scope="row">1840</th>
-                <td class="tableCell">drut platynowy żarzący się w próżni</td>
-                <td class="tableCell">Robert Grove</td>
+                <th class="table__header" scope="row">1840</th>
+                <td class="table__cell">drut platynowy żarzący się w próżni</td>
+                <td class="table__cell">Robert Grove</td>
               </tr>
               <tr>
-                <th class="tableHeader" scope="row">1854</th>
-                <td class="tableCell">pierwsze praktyczne wykorzystanie żarówki z włóknem ze zwęglonego bambusa do reklamy</td>
-                <td class="tableCell">Heinrich Göbel</td>
+                <th class="table__header" scope="row">1854</th>
+                <td class="table__cell">pierwsze praktyczne wykorzystanie żarówki z włóknem ze zwęglonego bambusa do reklamy</td>
+                <td class="table__cell">Heinrich Göbel</td>
               </tr>
               <tr>
-                <th class="tableHeader" scope="row">1860</th>
-                <td class="tableCell">brytyjski patent na świecące włókno węglowe w bańce, z której wypompowano powietrze</td>
-                <td class="tableCell">Joseph Wilson Swan</td>
+                <th class="table__header" scope="row">1860</th>
+                <td class="table__cell">brytyjski patent na świecące włókno węglowe w bańce, z której wypompowano powietrze</td>
+                <td class="table__cell">Joseph Wilson Swan</td>
               </tr>
               <tr>
-                <th class="tableHeader" scope="row">1878</th>
-                <td class="tableCell">pierwsza nadająca się do praktycznego wykorzystania żarówka, patent brytyjski</td>
-                <td class="tableCell">Joseph Wilson Swan</td>
+                <th class="table__header" scope="row">1878</th>
+                <td class="table__cell">pierwsza nadająca się do praktycznego wykorzystania żarówka, patent brytyjski</td>
+                <td class="table__cell">Joseph Wilson Swan</td>
               </tr>
               <tr>
-                <th class="tableHeader" scope="row">1879</th>
-                <td class="tableCell">patent Thomasa Edisona</td>
-                <td class="tableCell">Thomas Edison</td>
+                <th class="table__header" scope="row">1879</th>
+                <td class="table__cell">patent Thomasa Edisona</td>
+                <td class="table__cell">Thomas Edison</td>
               </tr>
               <tr>
-                <th class="tableHeader" scope="row">1890</th>
-                <td class="tableCell">wolframowy żarnik</td>
-                <td class="tableCell">Aleksandr Łodygin</td>
+                <th class="table__header" scope="row">1890</th>
+                <td class="table__cell">wolframowy żarnik</td>
+                <td class="table__cell">Aleksandr Łodygin</td>
               </tr>
             </tbody>
           </table>
         </div>
       </section>
-      <footer class="siteFooter">
-        <p class="footer">Copyright &copy; 2023 Wiktor Żarski</p>
+      <footer class="footer siteTheme">
+        <p class="footer_content">Copyright &copy; 2023 Wiktor Żarski</p>
       </footer>
     </main>
   </body>

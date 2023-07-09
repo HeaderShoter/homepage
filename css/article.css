@@ -1,0 +1,14 @@
+.article__content {
+  line-height: 1.5;
+}
+
+.article__inventorName {
+  width: 100px;
+  color: blue;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.article__companyName {
+  font-style: normal;
+}
