@@ -1,14 +1,14 @@
 console.log("Hello world!");
 
-let toggle = document.querySelector(".toggle__button");
-let body = document.querySelector(".body");
-let articleHeader = document.querySelector(".siteTheme");
-let tableHeader = document.querySelector(".table__header");
-let bulbImage = document.querySelector(".image");
+let toggle = document.querySelector(".js-toggle__button");
+let body = document.querySelector(".js-body");
+let articleHeader = document.querySelector(".js-theme");
+let tableHeader = document.querySelector(".js-table__header");
+let bulbImage = document.querySelector(".js-image");
 
 toggle.addEventListener("click", () => {
   body.classList.toggle("body--dark");
-  articleHeader.classList.toggle("siteTheme--dark"); // It changes article headers body when light is off but for now it works only with just one of headers and I will fix this when I will know how to.
+  articleHeader.classList.toggle("cssTheme--dark"); // It changes article headers body when light is off but for now it works only with just one of headers and I will fix this when I will know how to.
   tableHeader.classList.toggle("table__header--dark"); // It changes table headers body when light is off but for now it works only with just one of headers and I will fix this when I will know how to.
   if (toggle.innerText === "ZGAŚ") {
     toggle.innerText = "ZAPAL";

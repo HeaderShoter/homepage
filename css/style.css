@@ -20,7 +20,7 @@ html {
   background-color: rgb(46, 46, 46);
 }
 
-.siteTheme {
+.cssTheme {
   padding: 5px;
   margin-top: 50px;
   border-radius: 10px;
@@ -30,7 +30,7 @@ html {
   text-align: center;
 }
 
-.siteTheme--dark {
+.cssTheme--dark {
   background-color: transparent;
   border: solid 2px black;
 }
