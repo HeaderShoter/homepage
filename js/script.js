@@ -1,7 +1,12 @@
 console.log("Hello world!");
 
 const toggleButton = document.querySelector(".js-toggle__button");
-const bulbImage = document.querySelector(".js-image");
+
+toggleButton.addEventListener("click", () => {
+  toggleBackground();
+  toggleButton.innerText === "ZGAŚ" ? darkMode() : brightMode();
+}
+);
 
 const toggleBackground = () => {
   const body = document.querySelector(".js-body");
@@ -26,11 +31,7 @@ const brightMode = () => {
   bulbImage.style.display = "block";
 };
 
-toggleButton.addEventListener("click", () => {
-  toggleBackground();
-  toggleButton.innerText === "ZGAŚ" ? darkMode() : brightMode();
-}
-);
+
 
 console.log(button);
 
