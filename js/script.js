@@ -1,10 +1,11 @@
 console.log("Hello world!");
 
-const toggleButton = document.querySelector(".js-toggle__button");
+const themeToggle = document.querySelector(".js-themeToggle");
 
-toggleButton.addEventListener("click", () => {
+themeToggle.addEventListener("click", () => {
   toggleBackground();
-  toggleButton.innerText === "ZGAŚ" ? darkMode() : brightMode();
+  themeToggle.innerText === "ZGAŚ" ? darkMode() : brightMode();
+  bulbImageShow();
 }
 );
 
@@ -18,18 +19,16 @@ const toggleBackground = () => {
 };
 
 const darkMode = () => {
-  const bulbImage = document.querySelector(".js-image");
-  toggleButton.innerText = "ZAPAL";
-  bulbImage.style.display = "none";
+  themeToggle.innerText = "ZAPAL";
+  window.darkModeStatus = 'on';
 };
 
 const brightMode = () => {
-  const bulbImage = document.querySelector(".js-image");
-  toggleButton.innerText = "ZGAŚ";
-  bulbImage.style.display = "block";
+  themeToggle.innerText = "ZGAŚ";
+  window.darkModeStatus = 'off';
 };
 
-
-
-console.log(button);
-
+const bulbImageShow = () => {
+  const bulbImage = document.querySelector(".js-image");
+  darkModeStatus === 'off' ? bulbImage.style.display = "block" : bulbImage.style.display = "none";
+};
