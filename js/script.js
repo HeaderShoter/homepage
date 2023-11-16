@@ -18,14 +18,12 @@ const toggleBackground = () => {
 };
 
 const darkMode = () => {
-  const toggleButton = document.querySelector(".js-toggle__button");
   const bulbImage = document.querySelector(".js-image");
   toggleButton.innerText = "ZAPAL";
   bulbImage.style.display = "none";
 };
 
 const brightMode = () => {
-  const toggleButton = document.querySelector(".js-toggle__button");
   const bulbImage = document.querySelector(".js-image");
   toggleButton.innerText = "ZGAŚ";
   bulbImage.style.display = "block";
