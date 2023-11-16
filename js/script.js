@@ -10,13 +10,13 @@ themeToggle.addEventListener("click", () => {
 );
 
 const toggleButtonText = () => {
-  switch (themeToggle.innerText) {
-    case "ZGAŚ": themeToggle.innerText = "ZAPAL";
-      window.darkModeStatus = 'on';
-      break;
-    default: themeToggle.innerText = "ZGAŚ";
-      window.darkModeStatus = 'off';
-  }
+  if (themeToggle.innerText === "ZGAŚ") {
+    themeToggle.innerText = "ZAPAL";
+    window.darkModeStatus = 'on';
+  } else {
+    themeToggle.innerText = "ZGAŚ";
+    window.darkModeStatus = 'off';
+  };
 };
 
 const toggleBackground = () => {
