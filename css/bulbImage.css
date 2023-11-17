@@ -1,0 +1,8 @@
+.bulbImage__flexContainer {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .bulbImage_image {
+    max-width: 200px;
+  }

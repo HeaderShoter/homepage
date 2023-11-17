@@ -42,15 +42,6 @@ html {
   border-radius: 0px 0px 10px 10px;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-}
-
-.image {
-  max-width: 200px;
-}
-
 .footer {
   padding: 25px;
   border-radius: 10px 10px 0px 0px;
