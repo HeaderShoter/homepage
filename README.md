@@ -6,3 +6,8 @@ This website project was created at the request of my web development course. I 
 After you read all the information based on Wikipedia, you can play with the light toggle above the bulb image.
 ## Conventions used
 The entire site has been coded using BEM
+## Technologies used
+ - HTML
+ - CSS
+ - JavaScript ES6
+ - FlexBox
